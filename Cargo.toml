@@ -10,6 +10,7 @@ homepage = "https://github.com/ErickJ3/lazyfile"
 readme = "README.md"
 keywords = ["rclone", "tui", "cloud-storage", "terminal"]
 categories = ["command-line-utilities"]
+publish = false
 
 [dependencies]
 ratatui = "0.29"
