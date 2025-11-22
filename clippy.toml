@@ -1,0 +1,69 @@
+# Clippy configuration for LazyFile
+# This file configures linting rules and best practices for the project.
+# See: https://doc.rust-lang.org/clippy/
+
+# Cognitive complexity threshold
+# Warn if a function's cognitive complexity exceeds this value
+cognitive-complexity-threshold = 30
+
+# Doc comment identifiers that are allowed in doc comments
+# Prevents clippy from suggesting to change valid identifiers
+doc-valid-idents = [
+    "LazyFile",
+    "GitHub",
+    "rclone",
+    "JSON-RPC",
+    "RcloneClient",
+    "TUI",
+    "URL",
+    "HTTP",
+    "API",
+    "OAuth",
+    "S3",
+    "GCS",
+    "OneDrive",
+]
+
+# Allow expect and unwrap in tests
+# This is useful for test code where panics are acceptable
+allow-expect-in-tests = true
+allow-unwrap-in-tests = true
+allow-panic-in-tests = true
+
+# Lint: too_many_arguments
+# The maximum number of arguments a function can have before triggering
+# the lint. Functions with more arguments might be considered to have poor design
+too-many-arguments-threshold = 7
+
+# Array size threshold for the `large_stack_arrays` lint
+array-size-threshold = 512_000
+
+# Threshold for the `too_many_lines` lint
+too-many-lines-threshold = 200
+
+# Enforces style on iterators
+enforce-iter-loop-reborrow = true
+
+# Match patterns for let-else must have all patterns or none
+matches-for-let-else = "AllTypes"
+
+# Upper size in bytes for the `trivially_copy_pass_by_ref` lint
+trivial-copy-size-limit = 256
+
+# Enable documentation linting for private items in crates
+missing-docs-in-crate-items = true
+
+# Type complexity threshold
+type-complexity-threshold = 500
+
+# Threshold for stack size lint
+stack-size-threshold = 1_000_000
+
+# Maximum number of bools in structs before the lint triggers
+max-struct-bools = 3
+
+# Maximum number of bools in function params before the lint triggers
+max-fn-params-bools = 3
+
+# Maximum traits in trait bounds
+max-trait-bounds = 3
