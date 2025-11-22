@@ -3,6 +3,13 @@ name = "lazyfile"
 version = "0.1.0"
 edition = "2024"
 authors = ["Erick Jesus <erick.jesus2060@gmail.com>"]
+description = "A simple terminal UI for browsing and interacting with cloud storage via rclone"
+license = "MIT"
+repository = "https://github.com/ErickJ3/lazyfile"
+homepage = "https://github.com/ErickJ3/lazyfile"
+readme = "README.md"
+keywords = ["rclone", "tui", "cloud-storage", "terminal"]
+categories = ["command-line-utilities"]
 
 [dependencies]
 ratatui = "0.29"
