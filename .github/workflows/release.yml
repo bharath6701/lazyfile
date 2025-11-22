@@ -29,16 +29,18 @@ jobs:
   build-arch:
     runs-on: ubuntu-latest
     needs: get-version
-    container: archlinux:latest
 
     steps:
-      - name: Install dependencies
-        run: |
-          pacman -Syu --noconfirm
-          pacman -S --noconfirm base-devel rust git
-
       - name: Checkout code
         uses: actions/checkout@v4
+
+      - name: Install Rust
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y build-essential curl pkg-config
 
       - name: Build release binary
         run: |
@@ -192,15 +194,18 @@ jobs:
   build-fedora:
     runs-on: ubuntu-latest
     needs: get-version
-    container: fedora:latest
 
     steps:
-      - name: Install dependencies
-        run: |
-          dnf install -y gcc gcc-c++ make rust cargo git pkg-config openssl-devel rpm-build
-
       - name: Checkout code
         uses: actions/checkout@v4
+
+      - name: Install Rust
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y build-essential curl pkg-config
 
       - name: Build release binary
         run: |
