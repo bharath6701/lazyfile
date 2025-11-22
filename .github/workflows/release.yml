@@ -6,6 +6,9 @@ on:
       - 'v*'
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   build-arch:
     runs-on: ubuntu-latest
@@ -93,7 +96,6 @@ jobs:
            LazyFile provides a lightweight terminal user interface for interacting
            with cloud storage systems via rclone. It emphasizes simplicity,
            reliability, and developer experience.
-          Depends:
           EOF
 
           cat > debian_package/DEBIAN/postinst << 'EOF'
@@ -171,8 +173,7 @@ jobs:
     steps:
       - name: Install dependencies
         run: |
-          dnf groupinstall -y "Development Tools"
-          dnf install -y rust cargo git pkg-config
+          dnf install -y gcc gcc-c++ make rust cargo git pkg-config
 
       - name: Checkout code
         uses: actions/checkout@v4
