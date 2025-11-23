@@ -7,7 +7,7 @@ A simple terminal UI for browsing and interacting with cloud storage via rclone.
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Rust](https://img.shields.io/badge/rust-1.70%2B-orange.svg)
 
-![LazyFile Screenshot](./scrshot.png)
+![LazyFile Screenshot](./assets/screenshot.png)
 
 ## Table of Contents
 
